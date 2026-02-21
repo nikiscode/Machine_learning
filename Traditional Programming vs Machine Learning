@@ -4,5 +4,5 @@ Rules + Data → Output     Data + Output → Rules
 Manually coded logic      Model learns logic
 Example: Calculator       Example: Spam detection
 
-
+This difference makes lots of changes 
 
