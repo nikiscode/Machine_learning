@@ -1,0 +1,33 @@
+Data Preprocessing in Machine Learning
+
+Data preprocessing is the process of cleaning and transforming raw data into a usable format before training a machine learning model. Real-world data is often incomplete, inconsistent, or noisy, so preprocessing improves the quality and performance of the model.
+
+Key Steps in Data Preprocessing
+
+1. Data Cleaning
+Removes errors and inconsistencies in the dataset. This includes handling missing values, removing duplicates, and correcting incorrect data.
+
+2. Data Integration
+Combines data from multiple sources into a single dataset to create a unified view.
+
+3. Data Transformation
+Converts data into a suitable format for machine learning. This may include normalization, scaling, or encoding categorical variables.
+
+4. Data Reduction
+Reduces the size of the dataset while maintaining useful information. Techniques include feature selection and dimensionality reduction.
+
+5. Data Splitting
+The dataset is divided into training data and testing data so the model can learn from one part and be evaluated on another.
+
+Why Data Preprocessing is Important
+
+Improves model accuracy
+
+Reduces noise and inconsistencies
+
+Makes data suitable for machine learning algorithms
+
+Helps models learn patterns effectively
+
+Example:
+Before predicting house prices, missing values in the dataset are filled, categorical features like location are encoded, and numerical features like price and area are scaled.
