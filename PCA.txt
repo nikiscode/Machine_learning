@@ -1,0 +1,27 @@
+##Principal Component Analysis (PCA)
+Principal Component Analysis (PCA) is a dimensionality reduction technique used in machine learning and statistics to reduce the number of features in a dataset while preserving most of the important information.
+It transforms the original correlated variables into a new set of uncorrelated variables called Principal Components.
+Why PCA is Used
+Reduces the number of features (dimensions)
+Removes redundancy in data
+Improves model performance and speed
+Helps in data visualization
+How PCA Works
+Standardize the dataset.
+Compute the covariance matrix of the data.
+Calculate eigenvalues and eigenvectors.
+Select the principal components with the highest variance.
+Transform the original data into the new feature space.
+Key Idea
+The first principal component captures the maximum variance in the dataset, the second captures the next highest variance, and so on.
+Simple Example
+Suppose a dataset contains:
+Height
+Weight
+Body Fat
+These features may be correlated. PCA can transform them into fewer components (e.g., 2 principal components) while still preserving most of the information.
+Real-World Applications
+Image compression
+Face recognition
+Data visualization
+Noise reduction in datasets
