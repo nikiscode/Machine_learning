@@ -1,18 +1,15 @@
 //Linear regression 
-
  Definition
 Linear Regression is a supervised machine learning algorithm used to predict a continuous value by modeling the relationship between input variables (features) and an output variable (target).
 It finds the best-fit straight line that minimizes the error between predicted and actual values.
-
- Types of Linear Regression
+Types of Linear Regression
 Simple Linear Regression
 One independent variable
 Example: Predicting salary based on years of experience
 Multiple Linear Regression
 More than one independent variable
 Example: Predicting house price based on area, bedrooms, and location
-
- Mathematical Equation
+Mathematical Equation
 Simple Linear Regression:
 y = mx + b
 Where:
@@ -22,39 +19,32 @@ m = Slope (coefficient)
 b = Intercept
 Multiple Linear Regression:
 y = b0 + b1x1 + b2x2 + ... + bnxn
-
- How It Works (Step-by-Step)
+How It Works (Step-by-Step)
 Initialize parameters (slope and intercept).
 Calculate predicted values.
 Compute error using a loss function (e.g., Mean Squared Error).
 Adjust parameters to minimize error (using Gradient Descent or Normal Equation).
 Repeat until the model converges.
-
- Cost Function (Mean Squared Error - MSE)
+Cost Function (Mean Squared Error - MSE)
 MSE = (1/n) Σ (yi - ŷi)²
 Where:
 yi = Actual value
 ŷi = Predicted value
 n = Number of data points
-
- Advantages
+Advantages
 Simple and easy to interpret
 Fast and computationally efficient
 Works well for linear relationships
 Provides clear mathematical foundation
-
- Disadvantages
+Disadvantages
 Assumes linear relationship
 Sensitive to outliers
 Requires feature scaling (for multiple variables)
-Not suitable for complex patterns
-
- Applications
+Not suitable for complex patterns Applications
 Sales forecasting
 House price prediction
 Risk assessment
 Trend analysis
 Financial modeling
-
- Conclusion
+Conclusion
 Linear Regression is one of the most fundamental machine learning algorithms used for predicting continuous values. It is widely applied due to its simplicity, interpretability, and strong mathematical foundation.
