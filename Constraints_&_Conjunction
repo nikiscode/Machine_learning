@@ -3,7 +3,6 @@
 ##Definition
 A constraint is a condition or rule that must be satisfied in a problem.
 It limits the possible solutions.
-
 ## Example
 Constraint:
 x > 5
@@ -18,7 +17,6 @@ Age = 16 → ✖ Not allowed
 ## Definition
 A conjunction combines two statements using AND (∧).
 It is true only when both statements are true.
-
 ## Logical Form
 P ∧ Q
 # Truth Conditions (Explained Clearly)
