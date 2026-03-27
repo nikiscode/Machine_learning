@@ -1,28 +1,23 @@
 //K-Nearest Neighbors (KNN) its breif explanation and examples
-
  Definition
 K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks.
 It predicts the output for a new data point based on the K closest data points (neighbors) in the dataset.
-
- How KNN Works (Step-by-Step)
+How KNN Works (Step-by-Step)
 Choose the number of neighbors K.
 Calculate the distance between the new data point and all existing data points.
 Select the K nearest neighbors.
 For:
 Classification → Assign the majority class among the K neighbors.
 Regression → Take the average value of the K neighbors.
-
  Distance Formula (Euclidean Distance)
 The Euclidean distance between two points is:
 d = √((x2 - x1)² + (y2 - y1)²)
 This distance helps determine which points are closest to the new data point.
-
- Choosing the Value of K
+Choosing the Value of K
 Small K → More sensitive to noise
 Large K → More stable but may reduce accuracy
 Common practice: Use odd values of K (for classification) to avoid ties
-
- Advantages
+Advantages
 Simple and easy to understand
 No training phase (Lazy Learner)
 Works well for small datasets
