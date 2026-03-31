@@ -1,0 +1,65 @@
+##Types of Problems in ML
+Classification (Spam detection)
+Regression (House price prediction)
+Clustering (Customer segmentation)
+Recommendation Systems (Netflix/Amazon)
+
+##Evaluation Metrics
+ Very important for exams
+ For Classification:
+Accuracy
+Precision
+Recall
+F1 Score
+ For Regression:
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R² Score
+
+##Overfitting vs Underfitting
+ Almost always asked
+Overfitting → Model memorizes data (high accuracy, poor generalization)
+Underfitting → Model too simple
+
+##Include solution:
+Cross-validation
+Regularization
+More data
+
+##Feature Engineering
+ Shows deeper knowledge
+Feature Scaling (Normalization, Standardization)
+Encoding (Label Encoding, One-Hot Encoding)
+Feature Selection
+
+## Real-Life Applications
+ Makes your answer strong and practical
+Face Recognition
+Self-driving cars
+Fraud Detection
+Medical Diagnosis
+Chatbots
+
+## Advantages & Disadvantages of ML
+Advantages:
+Automation
+Handles large data
+Improves with experience
+Disadvantages:
+Needs large data
+Can be biased
+Requires computation power
+
+##Tools & Libraries (Good for projects)
+Python
+NumPy
+Pandas
+Scikit-learn
+TensorFlow
+PyTorch
+
+##Recent Trends (🔥 To impress examiner)
+Explainable AI (XAI)
+AutoML
+Generative AI
+Federated Learning
