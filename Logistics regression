@@ -1,28 +1,28 @@
 //Logistics regression and its explanation
 Logistic Regression
 
- Definition
+## Definition
 Logistic Regression is a supervised machine learning algorithm used for classification problems, especially binary classification (Yes/No, 0/1, True/False).
 Despite its name, it is used for classification, not regression.
 It predicts the probability that a given input belongs to a particular class.
 
- Why Not Linear Regression?
+## Why Not Linear Regression?
 Linear regression predicts continuous values.
 Logistic regression uses a Sigmoid Function to convert predictions into probabilities between 0 and 1.🔹 Sigmoid (Logistic) Function
 σ(z) = 1 / (1 + e^(-z))
-Where:
+##Where:
 z = b0 + b1x1 + b2x2 + ... + bnxn
 Output range: 0 to 1
 If output ≥ 0.5 → Class 1
 If output < 0.5 → Class 0
 
- How It Works (Step-by-Step)
+## How It Works (Step-by-Step)
 Calculate the linear combination of inputs.
 Apply the Sigmoid function.
 Get probability value (0–1).
 Apply threshold (usually 0.5) to classify.
 
- Cost Function (Log Loss)
+ ##Cost Function (Log Loss)
 Logistic Regression uses Log Loss instead of MSE.
 Cost = - (1/n) Σ [ y log(ŷ) + (1 - y) log(1 - ŷ) ]
 Where:
@@ -30,18 +30,18 @@ y = Actual value
 ŷ = Predicted probability
 n = Number of samples
 
- Types of Logistic Regression
+ ##Types of Logistic Regression
 Binary Logistic Regression → 2 classes
 Multinomial Logistic Regression → More than 2 classes
 Ordinal Logistic Regression → Ordered categories
 
- Advantages
+## Advantages
 Simple and efficient
 Works well for linearly separable data
 Provides probability output
 Easy to interpret
 
- Disadvantages
+ ##Disadvantages
 Assumes linear decision boundary
 Not suitable for complex relationships
 Sensitive to outliers
