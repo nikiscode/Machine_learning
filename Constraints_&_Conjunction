@@ -1,9 +1,10 @@
+
 //Constraints & Conjunction explantion with its examples
- 1. Constraint
+ 
+1. Constraint
 ##Definition
 A constraint is a condition or rule that must be satisfied in a problem.
-It limits the possible solutions.
-## Example
+It limits the possible solutions.## Example
 Constraint:
 x > 5
 If x = 8 → ✔ Satisfies (8 > 5)
@@ -17,6 +18,7 @@ Age = 16 → ✖ Not allowed
 ## Definition
 A conjunction combines two statements using AND (∧).
 It is true only when both statements are true.
+
 ## Logical Form
 P ∧ Q
 # Truth Conditions (Explained Clearly)
@@ -24,6 +26,7 @@ If P = True and Q = True → Result = ✔ True
 If P = True and Q = False → Result = ✖ False
 If P = False and Q = True → Result = ✖ False
 If P = False and Q = False → Result = ✖ False
+
 ## Even if one condition is false, the entire conjunction becomes false.
 
 ## Example
