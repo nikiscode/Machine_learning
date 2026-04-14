@@ -1,5 +1,6 @@
 //Linear regression 
- ##Definition
+ 
+##Definition
 Linear Regression is a supervised machine learning algorithm used to predict a continuous value by modeling the relationship between input variables (features) and an output variable (target).
 It finds the best-fit straight line that minimizes the error between predicted and actual values.
 Types of Linear Regression
@@ -10,6 +11,7 @@ Multiple Linear Regression
 More than one independent variable
 Example: Predicting house price based on area, bedrooms, and location
 Mathematical Equation
+
 ##Simple Linear Regression:
 y = mx + b
 Where:
@@ -17,6 +19,7 @@ y = Dependent variable (output)
 x = Independent variable (input)
 m = Slope (coefficient)
 b = Intercept
+
 ##Multiple Linear Regression:
 y = b0 + b1x1 + b2x2 + ... + bnxn
 How It Works (Step-by-Step)
@@ -26,6 +29,7 @@ Compute error using a loss function (e.g., Mean Squared Error).
 Adjust parameters to minimize error (using Gradient Descent or Normal Equation).
 Repeat until the model converges.
 Cost Function (Mean Squared Error - MSE)
+
 ##MSE = (1/n) Σ (yi - ŷi)²
 Where:
 yi = Actual value
