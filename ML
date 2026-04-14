@@ -1,8 +1,10 @@
 //Machine learning explanation and importance
+
 ##What is Machine Learning (ML)?
 Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn from data and improve their performance without being explicitly programmed.
 Instead of writing fixed rules, we provide data — and the system finds patterns and makes predictions.
 ## Why is ML Important in Real Life & the Modern World?
+
 ## 1. Automation
 Reduces manual work
 Automates repetitive tasks
