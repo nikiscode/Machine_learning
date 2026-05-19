@@ -1,4 +1,4 @@
-//Based on neural networks
+ //Based on neural networks
 
 Artificial Neural Networks (ANN)
 Convolutional Neural Networks (CNN) (images)
