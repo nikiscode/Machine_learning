@@ -1,14 +1,17 @@
    //Constraints & Conjunction explantion with its examples
- 1. Constraint
-##Definition
+
+1. Constraint
+ ##Definition
 A constraint is a condition or rule that must be satisfied in a problem.
 It limits the possible solutions.## Example
 Constraint:
-x > 5
+
+x> 5
 If x = 8 → ✔ Satisfies (8 > 5)
 If x = 3 → ✖ Does NOT satisfy (3 > 5 is false)
 ## Real-Life Example
 Constraint:
+
 Age must be 18 or above to vote.
 Age = 20 → ✔ Allowed
 Age = 16 → ✖ Not allowed
