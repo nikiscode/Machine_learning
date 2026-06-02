@@ -1,4 +1,4 @@
-v      \\Combine multiple models
+  \\Combine multiple models
 
 Bagging (Random Forest)
 Boosting (AdaBoost, XGBoost)
