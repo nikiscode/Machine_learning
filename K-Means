@@ -1,5 +1,6 @@
-//K-Means Clustering breif explanation with its examplesDefinition
 
+
+//K-Means Clustering breif explanation with its examplesDefinition
 K-Means is an unsupervised machine learning algorithm used to divide a dataset into K distinct clusters based on similarity.
 It groups similar data points together and separates dissimilar ones by minimizing the distance between points and their cluster centroids.
 How K-Means Works (Step-by-Step)
