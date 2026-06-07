@@ -1,8 +1,5 @@
-
-
-
-
 //K-Nearest Neighbors (KNN) its breif explanation and examples
+
 Definition
 K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks.
 It predicts the output for a new data point based on the K closest data points (neighbors) in the dataset.
