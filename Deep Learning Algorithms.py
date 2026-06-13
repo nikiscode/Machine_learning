@@ -1,6 +1,3 @@
-
-
-
 //Based on neural network
 
 Artificial Neural Networks (ANN)
