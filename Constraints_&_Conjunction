@@ -1,5 +1,4 @@
 //Constraints & Conjunction explantion with its examples
-
 1. Constraint
  ##Definition
 A constraint is a condition or rule that must be satisfied in a problem.
@@ -13,7 +12,6 @@ Constraint:
 Age must be 18 or above to vote.
 Age = 20 → ✔ Allowed
 Age = 16 → ✖ Not allowed
-
 2. Conjunction (AND Operator ∧)
 ## Definition
 A conjunction combines two statements using AND (∧).
@@ -40,7 +38,6 @@ If x = 12
 12 > 2 ✔
 12 < 10 ✖
 → ✖ Does NOT satisfy
-
 ## Final Summary
 Constraint → A rule that restricts possible solutions.
 Conjunction (AND) → True only when both conditions are true.
